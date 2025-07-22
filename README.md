@@ -4,20 +4,6 @@ Collection de charts Helm couvrant plusieurs aspecs, allant de l'orchestration d
 
 Source : "https://github.com/InseeFrLab/helm-charts-dev"
 
-## ArgoCD
-
-**Outil de livraison continue (CD) pour Kubernetes**. Il permet de gérer les déploiements d'applications dans des clusters Kubernetes de manière déclarative et GitOps. Le principe de GitOps consiste à gérer l'infrastructure et les déploiements via des fichiers Git, ce qui assure la synchronisation entre l'état du dépôt Git et l'état du cluster Kubernetes.
-
-- _Utilité_ : Déploiement, gestion et mise à jour des applications Kubernetes.
-- _Cas d'usage_ : Utilisé dans les pipelines CI/CD pour automatiser le déploiement d'applications et garantir que l'état du cluster correspond toujours à l'état défini dans les fichiers Git.
-
-## ArgoWorkflows
-
-**Argo Workflows est un système de gestion de workflows Kubernetes** qui permet de créer et d'exécuter des flux de travail complexes dans des clusters Kubernetes. Il est particulièrement utile pour orchestrer des tâches parallèles et en série, comme dans des pipelines de données ou des processus de machine learning.
-
-- _Utilité_ : Orchestration de workflows dans Kubernetes, exécution de tâches complexes en parallèle.
-- _Cas d'usage_ : Utilisé pour orchestrer des pipelines de données, des pipelines ML (machine learning), ou toute série d'étapes nécessitant des dépendances et un suivi de l'état d'exécution.
-
 ## Cube.js (cubejs)
 
 **Cube.js est une plateforme open-source pour construire des applications analytiques**. Il permet de créer des APIs de données et des moteurs de requêtes sur des bases de données SQL. Cube.js est particulièrement adapté pour le data modeling et la création de dashboards.
@@ -38,13 +24,6 @@ Source : "https://github.com/InseeFrLab/helm-charts-dev"
 
 - _Utilité_ : Traitement distribué de données volumineuses et parallélisation des calculs.
 - _Cas d'usage_ : Traitement de grandes quantités de données, apprentissage automatique distribué et calculs parallèles.
-
-## Elastic (elastic)
-
-**Elastic (Elasticsearch) est un moteur de recherche et d'analyse en temps réel**, qui permet d'indexer et de rechercher des données volumineuses très rapidement. Il fait partie de la suite Elastic Stack, qui inclut également Logstash (pour l’ingestion de données) et Kibana (pour la visualisation).
-
-- _Utilité_ : Recherche et analyse en temps réel de grandes quantités de données.
-- _Cas d'usage_ : Indexation et recherche sur de gros volumes de données (logs, métriques), systèmes de recherche pour des applications web, analyse de logs.
 
 ## 8. Fuseki (fuseki)
 
