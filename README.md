@@ -25,26 +25,12 @@ Source : "https://github.com/InseeFrLab/helm-charts-dev"
 - _Utilité_ : Traitement distribué de données volumineuses et parallélisation des calculs.
 - _Cas d'usage_ : Traitement de grandes quantités de données, apprentissage automatique distribué et calculs parallèles.
 
-## 8. Fuseki (fuseki)
-
-**Fuseki est un serveur de triple store pour le RDF (Resource Description Framework)**, utilisé pour stocker et interroger des données sémantiques. Il permet de gérer des graphes RDF et de répondre à des requêtes SPARQL.
-
-- _Utilité_ : Stockage et interrogation de données sémantiques RDF.
-- _Cas d'usage_ : Utilisé pour des applications de gestion de données liées, comme dans les domaines des bases de données sémantiques ou de l'intelligence artificielle.
-
 ## Langfuse (langfuse)
 
 \*\*Langfuse est une plateforme d'ingénierie LLM open-source. Elle aide les équipes à développer, contrôler, évaluer et déboguer les applications d'IA de manière collaborative.
 
 - _Utilité_ : Traitement et analyse du langage naturel.
 - _Cas d'usage_ : Utilisation dans des applications comme les chatbots, l'analyse de texte, la traduction automatique, etc.
-
-## Qdrant (qdrant)
-
-**Qdrant est une base de données vectorielle qui permet de stocker et de rechercher des représentations vectorielles de données** (telles que les embeddings de texte ou d'images). Il est conçu pour l'IA et le machine learning.
-
-- _Utilité_ : Stockage et recherche de données vectorielles, utilisé principalement pour les applications d'IA et de recherche.
-- _Cas d'usage_ : Recherche de données similaires, moteurs de recommandation, classification d'images ou de textes, et autres applications liées à l'IA.
 
 ## Ubuntu
 
